@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "id": "homelab",
+      "title": "homelab",
+      "summary": "self-hosted infrastructure",
+      "tags": [
+        "Proxmox",
+        "Docker",
+        "Linux",
+        "VPN"
+      ],
+      "open": "modal",
+      "link": "https://github.com/aidanlenahan",
+      "modal": {
+        "description": "VMs and LXC containers on Proxmox, a NAS, smart home controllers, security services, and monitoring. A sandbox for learning enterprise-grade tooling hands-on.",
+        "images": [
+          {
+            "src": "img/homelab/1.svg",
+            "alt": "Proxmox dashboard"
+          },
+          {
+            "src": "img/homelab/2.svg",
+            "alt": "Monitoring dashboard"
+          },
+          {
+            "src": "img/homelab/3.svg",
+            "alt": "Network diagram"
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "Personal Homelab Infrastructure",
+        "descriptionFrom": "custom",
+        "description": "Built and maintained a comprehensive homelab consisting of VMs and LXC containers nested in Proxmox servers, NAS (network attached storage), smart home controllers, security services, and monitoring services. Hands-on learning with enterprise-grade hardware and software.",
+        "tags": [
+          "Proxmox",
+          "Docker",
+          "Linux",
+          "VPN",
+          "Ubiquiti",
+          "Home Assistant"
+        ],
+        "icon": "fas fa-server",
+        "images": [],
+        "linkLabel": "GitHub Profile"
+      }
+    },
+    {
+      "id": "dogs",
+      "title": "dog walking",
+      "summary": "booking site for a dog walking business",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "open": "modal",
+      "link": "https://dogs.aidanlenahan.com",
+      "modal": {
+        "description": "A site for a professional dog walking service with online booking, service packages, testimonials, and service area info.",
+        "images": [
+          "img/dogs/1.svg"
+        ]
+      },
+      "portfolio": {
+        "title": "Professional Dog Walking Services",
+        "featured": true,
+        "descriptionFrom": "custom",
+        "description": "A comprehensive website for professional dog walking services featuring online booking, service packages, client testimonials, and service area information. Built with modern web technologies for a seamless user experience.",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive"
+        ],
+        "icon": "fas fa-dog",
+        "images": [],
+        "linkLabel": "Visit Site"
+      }
+    },
+    {
+      "id": "portfolio",
+      "title": "personal site",
+      "summary": "my personal website",
+      "open": "link",
+      "link": "https://aidanlenahan.com"
+    }
+  ]
+}

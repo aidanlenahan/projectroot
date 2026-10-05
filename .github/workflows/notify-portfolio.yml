@@ -1,0 +1,21 @@
+# Tells aidanlenahan/portfolio to regenerate its project cards
+# whenever projects.json changes on main.
+name: Notify portfolio
+
+on:
+  push:
+    branches: [main]
+    paths: [projects.json]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send projects-updated to portfolio
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/aidanlenahan/portfolio/dispatches \
+            -f event_type=projects-updated \
+            -F "client_payload[sha]=${GITHUB_SHA}"
