@@ -124,7 +124,7 @@ modal.querySelector('.close').addEventListener('click', () => modal.close());
 modal.addEventListener('click', e => { if (e.target === modal) modal.close(); });
 modal.addEventListener('close', () => history.replaceState(null, '', location.pathname));
 
-fetch('projects.json')
+fetch('/projects.json')
   .then(r => r.json())
   .then(({ projects }) => {
     renderList(projects);
