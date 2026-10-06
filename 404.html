@@ -6,12 +6,23 @@
   <title>not found · alenahan</title>
   <meta name="theme-color" content="#0b0b0c">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%224%22 fill=%22%237c9cff%22/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="/style.css">
+  <script>
+    // GitHub Pages serves this page for any missing path, so resolve links
+    // against the site root: /<repo>/ on github.io, / on a custom domain.
+    (function () {
+      var base = document.createElement('base');
+      base.href = location.hostname.endsWith('.github.io')
+        ? '/' + location.pathname.split('/')[1] + '/'
+        : '/';
+      document.head.appendChild(base);
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
     <h1>404</h1>
-    <p class="lede">Nothing here. <a href="/">Back to projects</a>.</p>
+    <p class="lede">Nothing here. <a href="./">Back to projects</a>.</p>
   </main>
 </body>
 </html>
