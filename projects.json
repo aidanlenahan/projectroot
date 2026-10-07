@@ -1,6 +1,46 @@
 {
   "projects": [
     {
+      "id": "portfolio",
+      "title": "personal site",
+      "summary": "my personal website",
+      "open": "link",
+      "link": "https://aidanlenahan.com"
+    },
+    {
+      "id": "dogs",
+      "title": "dog walking",
+      "summary": "marketing site for dog walking business",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "open": "modal",
+      "link": "https://dogs.aidanlenahan.com",
+      "modal": {
+        "description": "A site for a professional dog walking service with online booking, service packages, testimonials, and service area info.",
+        "images": [
+          "img/dogs/1.svg"
+        ]
+      },
+      "portfolio": {
+        "title": "Professional Dog Walking Services",
+        "featured": true,
+        "descriptionFrom": "custom",
+        "description": "A comprehensive website for professional dog walking services featuring online booking, service packages, client testimonials, and service area information. Built with modern web technologies for a seamless user experience.",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive"
+        ],
+        "icon": "fas fa-dog",
+        "images": [],
+        "linkLabel": "Visit Site"
+      }
+    },
+    {
       "id": "homelab",
       "title": "homelab",
       "summary": "self-hosted infrastructure",
@@ -45,46 +85,6 @@
         "images": [],
         "linkLabel": "GitHub Profile"
       }
-    },
-    {
-      "id": "dogs",
-      "title": "dog walking",
-      "summary": "booking site for a dog walking business",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "open": "modal",
-      "link": "https://dogs.aidanlenahan.com",
-      "modal": {
-        "description": "A site for a professional dog walking service with online booking, service packages, testimonials, and service area info.",
-        "images": [
-          "img/dogs/1.svg"
-        ]
-      },
-      "portfolio": {
-        "title": "Professional Dog Walking Services",
-        "featured": true,
-        "descriptionFrom": "custom",
-        "description": "A comprehensive website for professional dog walking services featuring online booking, service packages, client testimonials, and service area information. Built with modern web technologies for a seamless user experience.",
-        "tags": [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "Responsive"
-        ],
-        "icon": "fas fa-dog",
-        "images": [],
-        "linkLabel": "Visit Site"
-      }
-    },
-    {
-      "id": "portfolio",
-      "title": "personal site",
-      "summary": "my personal website",
-      "open": "link",
-      "link": "https://aidanlenahan.com"
     }
   ]
 }
