@@ -27,8 +27,7 @@
       "portfolio": {
         "title": "Professional Dog Walking Services",
         "featured": true,
-        "descriptionFrom": "custom",
-        "description": "A comprehensive website for professional dog walking services featuring online booking, service packages, client testimonials, and service area information. Built with modern web technologies for a seamless user experience.",
+        "descriptionFrom": "modal",
         "tags": [
           "HTML5",
           "CSS3",
@@ -38,6 +37,53 @@
         "icon": "fas fa-dog",
         "images": [],
         "linkLabel": "Visit Site"
+      }
+    },
+    {
+      "id": "emmy-strong",
+      "title": "emmy strong",
+      "summary": "nonprofit site for bone marrow donor awareness",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Nonprofit",
+        "Responsive",
+        "Cost-effective"
+      ],
+      "open": "modal",
+      "link": "https://emmy-strong.org",
+      "modal": {
+        "description": "Built emmy-strong.org to support the foundation's mission: ensuring that everyone in need of a bone marrow transplant can find a matching donor. The website serves to raise awareness, facilitate donor registration, and share Emmy's inspiring story with the community."
+      },
+      "portfolio": {
+        "title": "Emmy Strong Foundation Website",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-heart",
+        "linkLabel": "Visit Site"
+      }
+    },
+    {
+      "id": "gymnastics",
+      "title": "gymnastics fund",
+      "summary": "nonprofit fundraising site for RBR gymnastics",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Hostinger",
+        "SEO"
+      ],
+      "open": "modal",
+      "link": "https://rbrgymnastics.com",
+      "modal": {
+        "description": "Designed and developed a responsive website for The Gymnastics Excellence Fund, a nonprofit that fully funds Red Bank Regional High School's gymnastics team. Built to streamline donations and fundraisers, improve communication, and showcase team achievements."
+      },
+      "portfolio": {
+        "title": "Gymnastics Excellence Fund Website",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-medal",
+        "linkLabel": "View Project"
       }
     },
     {
@@ -71,8 +117,7 @@
       },
       "portfolio": {
         "title": "Personal Homelab Infrastructure",
-        "descriptionFrom": "custom",
-        "description": "Built and maintained a comprehensive homelab consisting of VMs and LXC containers nested in Proxmox servers, NAS (network attached storage), smart home controllers, security services, and monitoring services. Hands-on learning with enterprise-grade hardware and software.",
+        "descriptionFrom": "modal",
         "tags": [
           "Proxmox",
           "Docker",
@@ -84,6 +129,82 @@
         "icon": "fas fa-server",
         "images": [],
         "linkLabel": "GitHub Profile"
+      }
+    },
+    {
+      "id": "rbrctf",
+      "title": "rbr ctf",
+      "summary": "capture-the-flag platform for my high school",
+      "tags": [
+        "CTFd",
+        "Cybersecurity",
+        "Challenge Design",
+        "Linux"
+      ],
+      "open": "modal",
+      "link": "https://aidanlenahan.github.io/rbrctf/ctf",
+      "modal": {
+        "description": "Created and administered a CTFd instance at Red Bank Regional High School, developing dozens of capture-the-flag cybersecurity challenges for peer participation. Challenges cover web security, cryptography, binary exploitation, and network forensics."
+      },
+      "portfolio": {
+        "title": "High School CTFd Platform",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-flag",
+        "linkLabel": "View Platform"
+      }
+    },
+    {
+      "id": "pantry-lighting",
+      "title": "pantry lighting",
+      "summary": "door-triggered LED lighting circuit",
+      "listed": false,
+      "tags": [
+        "Electrical Engineering",
+        "Relay Systems",
+        "Low-Voltage",
+        "Home Automation"
+      ],
+      "open": "modal",
+      "link": "https://aidanlenahan.com/blog/articles/pantry-lighting.html",
+      "modal": {
+        "description": "Designed and assembled a hardware-based automation system that powers LED strips when a pantry door opens. Used a 12V relay module triggered by a magnetic reed switch, implementing clean wiring practices with appropriate gauge selection for power and signal paths."
+      },
+      "portfolio": {
+        "title": "Automated Pantry Lighting System",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-lightbulb",
+        "linkLabel": "Read Article",
+        "linkIcon": "fas fa-book-open"
+      }
+    },
+    {
+      "id": "ness-fitness",
+      "title": "ness fitness",
+      "summary": "workout and nutrition tracker",
+      "tags": [
+        "React",
+        "Python",
+        "TypeScript"
+      ],
+      "open": "modal",
+      "link": "https://ness.aidanlenahan.com",
+      "modal": {
+        "description": "Personal fitness application for tracking workouts, nutrition, and progress. Includes activity logging, goal setting, and detailed analytics with charts."
+      },
+      "portfolio": {
+        "title": "Fitness Tracking App",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-heartbeat",
+        "links": [
+          {
+            "href": "https://ness.aidanlenahan.com",
+            "label": "Visit Site"
+          },
+          {
+            "href": "https://github.com/aidanlenahan/NessFitness",
+            "label": "Source Code"
+          }
+        ]
       }
     }
   ]

@@ -126,9 +126,11 @@ modal.addEventListener('close', () => history.replaceState(null, '', location.pa
 
 fetch('projects.json')
   .then(r => r.json())
-  .then(({ projects }) => {
+  .then(({ projects: all }) => {
+    // "listed": false keeps a project portfolio-only.
+    const projects = all.filter(p => p.listed !== false);
     renderList(projects);
-    // Deep link: project.alenahan.net/#homelab opens that project's modal.
+    // Deep link: alenahan.net/#homelab opens that project's modal.
     const linked = projects.find(p => `#${p.id}` === location.hash && p.modal);
     if (linked) openModal(linked);
   })
