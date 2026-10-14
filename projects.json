@@ -40,6 +40,39 @@
       }
     },
     {
+      "id": "pharmreach",
+      "title": "pharmreach",
+      "summary": "find medicine at nearby pharmacies (HackRU 2026)",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Gemini",
+        "OpenStreetMap",
+        "OpenTripPlanner"
+      ],
+      "open": "modal",
+      "link": "https://pharmreach.tech",
+      "modal": {
+        "description": "Built in 24 hours at HackRU 2026. PharmReach helps people in pharmacy deserts find medicine: search for a product and see nearby pharmacies that stock it, with price, location, and travel time by walking, cycling, driving, or transit, plus the total cost of the trip. Routing runs on OpenTripPlanner over an interactive OpenStreetMap map, and a Gemini chat suggests medications for your symptoms and links to them on local pharmacy sites."
+      },
+      "portfolio": {
+        "title": "PharmReach",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-prescription-bottle-medical",
+        "links": [
+          {
+            "href": "https://pharmreach.tech",
+            "label": "Visit Site"
+          },
+          {
+            "href": "https://github.com/aidanlenahan/pharmreach",
+            "label": "Source Code"
+          }
+        ]
+      }
+    },
+    {
       "id": "emmy-strong",
       "title": "emmy strong",
       "summary": "nonprofit site for bone marrow donor awareness",

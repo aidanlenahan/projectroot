@@ -23,7 +23,10 @@ function renderList(projects) {
     const isModal = p.open === 'modal' && p.modal;
     const a = el('a');
     a.href = isModal ? `#${p.id}` : p.link;
-    if (!isModal && /^https?:/.test(p.link)) a.rel = 'noopener';
+    if (!isModal) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
 
     a.append(el('span', 'title', p.title));
     const right = el('span', 'desc', p.summary);
@@ -109,6 +112,7 @@ function openModal(p) {
   if (p.link) {
     const link = el('a', 'button', 'Visit ↗');
     link.href = p.link;
+    link.target = '_blank';
     link.rel = 'noopener';
     text.append(link);
   }
