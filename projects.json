@@ -35,7 +35,12 @@
           "Responsive"
         ],
         "icon": "fas fa-dog",
-        "images": [],
+        "images": [
+          {
+            "src": "img/dogs/thumb.png",
+            "alt": "Aidan Lenahan Dog Services homepage"
+          }
+        ],
         "linkLabel": "Visit Site"
       }
     },
@@ -69,6 +74,12 @@
             "href": "https://github.com/aidanlenahan/pharmreach",
             "label": "Source Code"
           }
+        ],
+        "images": [
+          {
+            "src": "img/pharmreach/thumb.png",
+            "alt": "PharmReach homepage"
+          }
         ]
       }
     },
@@ -93,7 +104,13 @@
         "title": "Emmy Strong Foundation Website",
         "descriptionFrom": "modal",
         "icon": "fas fa-heart",
-        "linkLabel": "Visit Site"
+        "linkLabel": "Visit Site",
+        "images": [
+          {
+            "src": "img/emmy-strong/thumb.png",
+            "alt": "EmmyStrong Foundation homepage"
+          }
+        ]
       }
     },
     {
@@ -116,7 +133,13 @@
         "title": "Gymnastics Excellence Fund Website",
         "descriptionFrom": "modal",
         "icon": "fas fa-medal",
-        "linkLabel": "View Project"
+        "linkLabel": "View Project",
+        "images": [
+          {
+            "src": "img/gymnastics/thumb.png",
+            "alt": "Gymnastics Excellence Fund homepage"
+          }
+        ]
       }
     },
     {
@@ -183,7 +206,13 @@
         "title": "High School CTFd Platform",
         "descriptionFrom": "modal",
         "icon": "fas fa-flag",
-        "linkLabel": "View Platform"
+        "linkLabel": "View Platform",
+        "images": [
+          {
+            "src": "img/rbrctf/thumb.png",
+            "alt": "RBR CTF homepage"
+          }
+        ]
       }
     },
     {
