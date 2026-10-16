@@ -244,36 +244,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "ness-fitness",
-      "title": "ness fitness",
-      "summary": "workout and nutrition tracker",
-      "tags": [
-        "React",
-        "Python",
-        "TypeScript"
-      ],
-      "open": "modal",
-      "link": "https://ness.aidanlenahan.com",
-      "modal": {
-        "description": "Personal fitness application for tracking workouts, nutrition, and progress. Includes activity logging, goal setting, and detailed analytics with charts."
-      },
-      "portfolio": {
-        "title": "Fitness Tracking App",
-        "descriptionFrom": "modal",
-        "icon": "fas fa-heartbeat",
-        "links": [
-          {
-            "href": "https://ness.aidanlenahan.com",
-            "label": "Visit Site"
-          },
-          {
-            "href": "https://github.com/aidanlenahan/NessFitness",
-            "label": "Source Code"
-          }
-        ]
-      }
     }
   ]
 }
