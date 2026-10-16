@@ -236,7 +236,13 @@
         "descriptionFrom": "modal",
         "icon": "fas fa-lightbulb",
         "linkLabel": "Read Article",
-        "linkIcon": "fas fa-book-open"
+        "linkIcon": "fas fa-book-open",
+        "images": [
+          {
+            "src": "img/pantry-lighting/thumb.webp",
+            "alt": "Pantry lighting circuit schematic"
+          }
+        ]
       }
     },
     {
