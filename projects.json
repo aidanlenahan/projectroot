@@ -21,7 +21,22 @@
       "modal": {
         "description": "A site for a professional dog walking service with online booking, service packages, testimonials, and service area info.",
         "images": [
-          "img/dogs/1.svg"
+          {
+            "src": "img/dogs/hero-stats-about.webp",
+            "alt": "Dog walking site homepage"
+          },
+          {
+            "src": "img/dogs/happy-dogs-gallery.webp",
+            "alt": "Dog walking site photo gallery"
+          },
+          {
+            "src": "img/dogs/client-reviews.webp",
+            "alt": "Dog walking site client reviews"
+          },
+          {
+            "src": "img/dogs/thumb.webp",
+            "alt": "Aidan Lenahan Dog Services homepage"
+          }
         ]
       },
       "portfolio": {
@@ -35,12 +50,6 @@
           "Responsive"
         ],
         "icon": "fas fa-dog",
-        "images": [
-          {
-            "src": "img/dogs/thumb.png",
-            "alt": "Aidan Lenahan Dog Services homepage"
-          }
-        ],
         "linkLabel": "Visit Site"
       }
     },
@@ -59,7 +68,41 @@
       "open": "modal",
       "link": "https://pharmreach.tech",
       "modal": {
-        "description": "Built in 24 hours at HackRU 2026. PharmReach helps people in pharmacy deserts find medicine: search for a product and see nearby pharmacies that stock it, with price, location, and travel time by walking, cycling, driving, or transit, plus the total cost of the trip. Routing runs on OpenTripPlanner over an interactive OpenStreetMap map, and a Gemini chat suggests medications for your symptoms and links to them on local pharmacy sites."
+        "description": "Built in 24 hours at HackRU 2026. PharmReach helps people in pharmacy deserts find medicine: search for a product and see nearby pharmacies that stock it, with price, location, and travel time by walking, cycling, driving, or transit, plus the total cost of the trip. Routing runs on OpenTripPlanner over an interactive OpenStreetMap map, and a Gemini chat suggests medications for your symptoms and links to them on local pharmacy sites.",
+        "images": [
+          {
+            "src": "img/pharmreach/hero.webp",
+            "alt": "PharmReach landing page with nearby pharmacy prices"
+          },
+          {
+            "src": "img/pharmreach/travel-modes.webp",
+            "alt": "PharmReach travel mode options"
+          },
+          {
+            "src": "img/pharmreach/categories-faq.webp",
+            "alt": "PharmReach product categories and FAQ"
+          },
+          {
+            "src": "img/pharmreach/travel-setup-wizard.webp",
+            "alt": "PharmReach travel preferences setup"
+          },
+          {
+            "src": "img/pharmreach/find-medicine-search.webp",
+            "alt": "PharmReach medicine search"
+          },
+          {
+            "src": "img/pharmreach/results-table.webp",
+            "alt": "PharmReach results comparing price and travel time"
+          },
+          {
+            "src": "img/pharmreach/pharmacy-details-panel.webp",
+            "alt": "PharmReach pharmacy details panel"
+          },
+          {
+            "src": "img/pharmreach/thumb.webp",
+            "alt": "PharmReach homepage"
+          }
+        ]
       },
       "portfolio": {
         "title": "PharmReach",
@@ -74,13 +117,125 @@
             "href": "https://github.com/aidanlenahan/pharmreach",
             "label": "Source Code"
           }
-        ],
+        ]
+      }
+    },
+    {
+      "id": "gem",
+      "title": "gem",
+      "summary": "group event manager: plans, chat, and photos for friend groups",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Fastify",
+        "PostgreSQL",
+        "Socket.IO",
+        "PWA"
+      ],
+      "open": "modal",
+      "link": "https://gem.aidanlenahan.com",
+      "modal": {
+        "description": "GEM (Group Event Manager) is an installable progressive web app that gets friend group plans out of the group chat and into reality. Private groups get events with RSVPs, tags, and calendar export, real-time chat channels over WebSockets, shared event photo albums, and push and email notifications. Built full-stack in TypeScript: a React frontend and a Fastify API on PostgreSQL, with Redis-backed background job queues.",
         "images": [
           {
-            "src": "img/pharmreach/thumb.png",
-            "alt": "PharmReach homepage"
+            "src": "img/gem/landing-hero.webp",
+            "alt": "GEM landing page"
+          },
+          {
+            "src": "img/gem/landing-features.webp",
+            "alt": "GEM feature overview"
+          },
+          {
+            "src": "img/gem/groups-dashboard.webp",
+            "alt": "GEM groups dashboard"
+          },
+          {
+            "src": "img/gem/group-events-view.webp",
+            "alt": "GEM group events list"
+          },
+          {
+            "src": "img/gem/calendar-feed-modal.webp",
+            "alt": "GEM calendar feed export"
+          },
+          {
+            "src": "img/gem/group-stats.webp",
+            "alt": "GEM group stats"
+          },
+          {
+            "src": "img/gem/channel-chat.webp",
+            "alt": "GEM real-time channel chat"
+          },
+          {
+            "src": "img/gem/1.webp",
+            "alt": "GEM event page with RSVPs"
+          },
+          {
+            "src": "img/gem/2.webp",
+            "alt": "GEM group poll"
+          },
+          {
+            "src": "img/gem/3.webp",
+            "alt": "GEM pinned channel messages"
+          },
+          {
+            "src": "img/gem/4.webp",
+            "alt": "GEM group members list"
+          },
+          {
+            "src": "img/gem/5.webp",
+            "alt": "GEM create event form"
+          },
+          {
+            "src": "img/gem/6.webp",
+            "alt": "GEM demo sign-out screen"
           }
         ]
+      },
+      "portfolio": {
+        "title": "GEM (Group Event Manager)",
+        "descriptionFrom": "modal",
+        "tags": [
+          "TypeScript",
+          "React",
+          "Fastify",
+          "PostgreSQL",
+          "Socket.IO",
+          "Tailwind CSS",
+          "PWA"
+        ],
+        "icon": "fas fa-calendar-check",
+        "links": [
+          {
+            "href": "https://gem.aidanlenahan.com",
+            "label": "Visit Site"
+          },
+          {
+            "href": "https://github.com/aidanlenahan/gem",
+            "label": "Source Code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bucit",
+      "title": "bucit",
+      "summary": "tech support ticketing platform for my high school",
+      "tags": [
+        "PHP",
+        "MySQL",
+        "Apache",
+        "JavaScript"
+      ],
+      "open": "modal",
+      "link": "https://github.com/aidanlenahan/bucit",
+      "modal": {
+        "description": "Built and deployed a full-stack tech support platform for BucIT, the student Chromebook repair team at Red Bank Regional High School, replacing a paper ticket system where handwritten forms were wedged inside laptop lids. Students submit and track tickets through self-service pages and a kiosk, with a help article knowledge base for common fixes. Technicians get a dashboard to assign, update, and close tickets, plus parts inventory tracking, and students are emailed automatically when their device is ready."
+      },
+      "portfolio": {
+        "title": "BucIT Tech Support Platform",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-ticket",
+        "linkLabel": "Source Code"
       }
     },
     {
@@ -98,19 +253,27 @@
       "open": "modal",
       "link": "https://emmy-strong.org",
       "modal": {
-        "description": "Built emmy-strong.org to support the foundation's mission: ensuring that everyone in need of a bone marrow transplant can find a matching donor. The website serves to raise awareness, facilitate donor registration, and share Emmy's inspiring story with the community."
+        "description": "Built emmy-strong.org to support the foundation's mission: ensuring that everyone in need of a bone marrow transplant can find a matching donor. The website serves to raise awareness, facilitate donor registration, and share Emmy's inspiring story with the community.",
+        "images": [
+          {
+            "src": "img/emmy-strong/hero.webp",
+            "alt": "Emmy Strong Foundation homepage"
+          },
+          {
+            "src": "img/emmy-strong/donate.webp",
+            "alt": "Emmy Strong Foundation donation page"
+          },
+          {
+            "src": "img/emmy-strong/thumb.webp",
+            "alt": "EmmyStrong Foundation homepage"
+          }
+        ]
       },
       "portfolio": {
         "title": "Emmy Strong Foundation Website",
         "descriptionFrom": "modal",
         "icon": "fas fa-heart",
-        "linkLabel": "Visit Site",
-        "images": [
-          {
-            "src": "img/emmy-strong/thumb.png",
-            "alt": "EmmyStrong Foundation homepage"
-          }
-        ]
+        "linkLabel": "Visit Site"
       }
     },
     {
@@ -127,19 +290,31 @@
       "open": "modal",
       "link": "https://rbrgymnastics.com",
       "modal": {
-        "description": "Designed and developed a responsive website for The Gymnastics Excellence Fund, a nonprofit that fully funds Red Bank Regional High School's gymnastics team. Built to streamline donations and fundraisers, improve communication, and showcase team achievements."
+        "description": "Designed and developed a responsive website for The Gymnastics Excellence Fund, a nonprofit that fully funds Red Bank Regional High School's gymnastics team. Built to streamline donations and fundraisers, improve communication, and showcase team achievements.",
+        "images": [
+          {
+            "src": "img/gymnastics/hero.webp",
+            "alt": "Gymnastics Excellence Fund homepage"
+          },
+          {
+            "src": "img/gymnastics/team-meet-the-coach.webp",
+            "alt": "Gymnastics Excellence Fund team page"
+          },
+          {
+            "src": "img/gymnastics/about.webp",
+            "alt": "Gymnastics Excellence Fund about page"
+          },
+          {
+            "src": "img/gymnastics/thumb.webp",
+            "alt": "Gymnastics Excellence Fund homepage"
+          }
+        ]
       },
       "portfolio": {
         "title": "Gymnastics Excellence Fund Website",
         "descriptionFrom": "modal",
         "icon": "fas fa-medal",
-        "linkLabel": "View Project",
-        "images": [
-          {
-            "src": "img/gymnastics/thumb.png",
-            "alt": "Gymnastics Excellence Fund homepage"
-          }
-        ]
+        "linkLabel": "View Project"
       }
     },
     {
@@ -200,19 +375,35 @@
       "open": "modal",
       "link": "https://aidanlenahan.github.io/rbrctf/ctf",
       "modal": {
-        "description": "Created and administered a CTFd instance at Red Bank Regional High School, developing dozens of capture-the-flag cybersecurity challenges for peer participation. Challenges cover web security, cryptography, binary exploitation, and network forensics."
+        "description": "Created and administered a CTFd instance at Red Bank Regional High School, developing dozens of capture-the-flag cybersecurity challenges for peer participation. Challenges cover web security, cryptography, binary exploitation, and network forensics.",
+        "images": [
+          {
+            "src": "img/rbrctf/hero.webp",
+            "alt": "RBR CTF homepage"
+          },
+          {
+            "src": "img/rbrctf/challenges-board.webp",
+            "alt": "RBR CTF challenge board"
+          },
+          {
+            "src": "img/rbrctf/challenge-modal.webp",
+            "alt": "RBR CTF challenge details"
+          },
+          {
+            "src": "img/rbrctf/scoreboard.webp",
+            "alt": "RBR CTF scoreboard"
+          },
+          {
+            "src": "img/rbrctf/thumb.webp",
+            "alt": "RBR CTF homepage"
+          }
+        ]
       },
       "portfolio": {
         "title": "High School CTFd Platform",
         "descriptionFrom": "modal",
         "icon": "fas fa-flag",
-        "linkLabel": "View Platform",
-        "images": [
-          {
-            "src": "img/rbrctf/thumb.png",
-            "alt": "RBR CTF homepage"
-          }
-        ]
+        "linkLabel": "View Platform"
       }
     },
     {
