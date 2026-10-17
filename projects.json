@@ -110,7 +110,8 @@
             "href": "https://github.com/aidanlenahan/pharmreach",
             "label": "Source Code"
           }
-        ]
+        ],
+        "home": 2
       }
     },
     {
@@ -206,7 +207,8 @@
             "href": "https://github.com/aidanlenahan/gem",
             "label": "Source Code"
           }
-        ]
+        ],
+        "home": 1
       }
     },
     {
