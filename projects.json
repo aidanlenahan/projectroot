@@ -34,7 +34,6 @@
       },
       "portfolio": {
         "title": "Professional Dog Walking Services",
-        "featured": true,
         "descriptionFrom": "modal",
         "tags": [
           "HTML5",
@@ -187,6 +186,7 @@
       },
       "portfolio": {
         "title": "GEM (Group Event Manager)",
+        "featured": true,
         "descriptionFrom": "modal",
         "tags": [
           "TypeScript",
