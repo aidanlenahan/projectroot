@@ -201,16 +201,29 @@ dialog::backdrop {
 .track::-webkit-scrollbar { display: none; }
 
 .slide {
+  position: relative;
   flex: 0 0 100%;
   aspect-ratio: 16 / 10;
+  overflow: hidden;
   scroll-snap-align: start;
 }
 
+/* The full image is fit inside the slide; whatever space is left over,
+   beside or above/below it, shows a blurred copy of the same image. */
 .slide img {
+  position: relative;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+}
+
+.slide .backdrop {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  filter: blur(24px) saturate(1.2);
+  transform: scale(1.2);
 }
 
 .nav {

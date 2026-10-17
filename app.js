@@ -49,6 +49,12 @@ function buildCarousel(images) {
   const track = el('div', 'track');
   images.forEach(img => {
     const slide = el('div', 'slide');
+    const backdrop = el('img', 'backdrop');
+    backdrop.src = img.src;
+    backdrop.alt = '';
+    backdrop.setAttribute('aria-hidden', 'true');
+    backdrop.loading = 'lazy';
+    slide.append(backdrop);
     const image = el('img');
     image.src = img.src;
     image.alt = img.alt || '';
