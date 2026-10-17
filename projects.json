@@ -1,13 +1,6 @@
 {
   "projects": [
     {
-      "id": "portfolio",
-      "title": "personal site",
-      "summary": "my personal website",
-      "open": "link",
-      "link": "https://aidanlenahan.com"
-    },
-    {
       "id": "dogs",
       "title": "dog walking",
       "summary": "marketing site for dog walking business",
