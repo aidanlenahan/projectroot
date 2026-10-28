@@ -224,7 +224,29 @@
       "open": "modal",
       "link": "https://github.com/aidanlenahan/bucit",
       "modal": {
-        "description": "Built and deployed a full-stack tech support platform for BucIT, the student Chromebook repair team at Red Bank Regional High School, replacing a paper ticket system where handwritten forms were wedged inside laptop lids. Students submit and track tickets through self-service pages and a kiosk, with a help article knowledge base for common fixes. Technicians get a dashboard to assign, update, and close tickets, plus parts inventory tracking, and students are emailed automatically when their device is ready."
+        "description": "Built and deployed a full-stack tech support platform for BucIT, the student Chromebook repair team at Red Bank Regional High School, replacing a paper ticket system where handwritten forms were wedged inside laptop lids. Students submit and track tickets through self-service pages and a kiosk, with a help article knowledge base for common fixes. Technicians get a dashboard to assign, update, and close tickets, plus parts inventory tracking, and students are emailed automatically when their device is ready.",
+        "images": [
+          {
+            "src": "img/bucit/ticket-dashboard.webp",
+            "alt": "BucIT technician ticket management dashboard"
+          },
+          {
+            "src": "img/bucit/home.webp",
+            "alt": "BucIT student support homepage"
+          },
+          {
+            "src": "img/bucit/kiosk.webp",
+            "alt": "BucIT kiosk student ID scan screen"
+          },
+          {
+            "src": "img/bucit/inventory.webp",
+            "alt": "BucIT parts inventory management"
+          },
+          {
+            "src": "img/bucit/help-articles.webp",
+            "alt": "BucIT help articles knowledge base"
+          }
+        ]
       },
       "portfolio": {
         "title": "BucIT Tech Support Platform",
