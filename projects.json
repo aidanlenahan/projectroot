@@ -323,7 +323,7 @@
       "open": "modal",
       "link": "https://rbrgymnastics.com",
       "modal": {
-        "description": "Designed and developed a responsive website for The Gymnastics Excellence Fund, a nonprofit that fully funds Red Bank Regional High School's gymnastics team. Built to streamline donations and fundraisers, improve communication, and showcase team achievements.",
+        "description": "Designed and developed a responsive website for The Gymnastics Excellence Fund, a nonprofit that fully funds Red Bank Regional High School's gymnastics team. Built to take donations, promote fundraisers, keep families and supporters informed, and show off the team's achievements.",
         "images": [
           {
             "src": "img/gymnastics/hero.webp",
@@ -363,7 +363,7 @@
       "open": "modal",
       "link": "https://github.com/aidanlenahan",
       "modal": {
-        "description": "VMs and LXC containers on Proxmox, a NAS, smart home controllers, security services, and monitoring. A sandbox for learning enterprise-grade tooling hands-on.",
+        "description": "VMs and LXC containers on Proxmox, a NAS, smart home controllers, security services, and monitoring. A sandbox for learning, hands-on, the same tools IT teams run in production.",
         "images": [
           {
             "src": "img/homelab/1.svg",
