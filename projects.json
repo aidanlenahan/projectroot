@@ -490,6 +490,64 @@
           }
         ]
       }
+    },
+    {
+      "id": "iogame",
+      "title": "iogame",
+      "summary": "unfinished remake of the territory-conquest game openfront.io",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Redis",
+        "PixiJS",
+        "Docker"
+      ],
+      "open": "modal",
+      "link": "https://iogame.alenahan.net",
+      "modal": {
+        "description": "Attempted remake of the OpenFront game found at openfront.io. Claim tiles on a world map, send troops against a bot opponent, and build cities and ports. Built with a Node.js + Redis game server and a PixiJS frontend. I bailed as it got pretty boring and the project came to a standstill, and moved on to GEM. Learned that remaking games can be monotonous if you aren't entirely interested in the project.",
+        "images": [
+          {
+            "src": "img/iogame/landing.webp",
+            "alt": "iogame landing screen"
+          },
+          {
+            "src": "img/iogame/heads-up.webp",
+            "alt": "iogame unfinished-demo notice"
+          },
+          {
+            "src": "img/iogame/choose-territory.webp",
+            "alt": "iogame choosing a starting territory"
+          },
+          {
+            "src": "img/iogame/territory.webp",
+            "alt": "iogame player territory expanding"
+          },
+          {
+            "src": "img/iogame/build-menu.webp",
+            "alt": "iogame city and port build menu"
+          },
+          {
+            "src": "img/iogame/world-view.webp",
+            "alt": "iogame world map with player and bot territory"
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "OpenFront Remake (iogame)",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-globe",
+        "links": [
+          {
+            "href": "https://iogame.alenahan.net",
+            "label": "Play Demo"
+          },
+          {
+            "href": "https://github.com/aidanlenahan/iogame",
+            "label": "Source Code"
+          }
+        ]
+      }
     }
   ]
 }
