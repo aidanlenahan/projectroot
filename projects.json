@@ -418,6 +418,56 @@
       }
     },
     {
+      "id": "pantry-lighting",
+      "title": "pantry lighting",
+      "summary": "door-triggered LED lighting circuit",
+      "listed": false,
+      "tags": [
+        "Electrical Engineering",
+        "Relay Systems",
+        "Low-Voltage",
+        "Home Automation"
+      ],
+      "open": "modal",
+      "link": "https://aidanlenahan.com/blog/articles/pantry-lighting.html",
+      "modal": {
+        "description": "Designed and assembled a hardware-based automation system that powers LED strips when a pantry door opens. Used a 12V relay module triggered by a magnetic reed switch, implementing clean wiring practices with appropriate gauge selection for power and signal paths."
+      },
+      "portfolio": {
+        "title": "Automated Pantry Lighting System",
+        "descriptionFrom": "modal",
+        "icon": "fas fa-lightbulb",
+        "linkLabel": "Read Article",
+        "linkIcon": "fas fa-book-open",
+        "images": [
+          {
+            "src": "img/pantry-lighting/thumb.webp",
+            "alt": "Pantry lighting circuit schematic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyberpatriot",
+      "title": "cyberpatriot",
+      "summary": "guides I created during my time as CyberPatriot competitor",
+      "tags": [
+        "PowerShell",
+        "Bash",
+        "Windows",
+        "Linux",
+        "Cybersecurity"
+      ],
+      "open": "link",
+      "link": "https://cyberpatriot.alenahan.net",
+      "portfolio": {
+        "title": "CyberPatriot Hardening Guides",
+        "descriptionFrom": "summary",
+        "icon": "fas fa-book-open",
+        "linkLabel": "Visit Site"
+      }
+    },
+    {
       "id": "rbrctf",
       "title": "rbr ctf",
       "summary": "capture-the-flag platform for my high school",
@@ -459,36 +509,6 @@
         "descriptionFrom": "modal",
         "icon": "fas fa-flag",
         "linkLabel": "View Platform"
-      }
-    },
-    {
-      "id": "pantry-lighting",
-      "title": "pantry lighting",
-      "summary": "door-triggered LED lighting circuit",
-      "listed": false,
-      "tags": [
-        "Electrical Engineering",
-        "Relay Systems",
-        "Low-Voltage",
-        "Home Automation"
-      ],
-      "open": "modal",
-      "link": "https://aidanlenahan.com/blog/articles/pantry-lighting.html",
-      "modal": {
-        "description": "Designed and assembled a hardware-based automation system that powers LED strips when a pantry door opens. Used a 12V relay module triggered by a magnetic reed switch, implementing clean wiring practices with appropriate gauge selection for power and signal paths."
-      },
-      "portfolio": {
-        "title": "Automated Pantry Lighting System",
-        "descriptionFrom": "modal",
-        "icon": "fas fa-lightbulb",
-        "linkLabel": "Read Article",
-        "linkIcon": "fas fa-book-open",
-        "images": [
-          {
-            "src": "img/pantry-lighting/thumb.webp",
-            "alt": "Pantry lighting circuit schematic"
-          }
-        ]
       }
     },
     {
