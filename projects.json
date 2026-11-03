@@ -464,7 +464,13 @@
         "title": "CyberPatriot Hardening Guides",
         "descriptionFrom": "summary",
         "icon": "fas fa-book-open",
-        "linkLabel": "Visit Site"
+        "linkLabel": "Visit Site",
+        "images": [
+          {
+            "src": "img/cyberpatriot/thumb.webp",
+            "alt": "CP-17 CyberPatriot logo"
+          }
+        ]
       }
     },
     {
