@@ -144,4 +144,5 @@ fetch('projects.json')
     const linked = projects.find(p => `#${p.id}` === location.hash && p.modal);
     if (linked) openModal(linked);
   })
-  .catch(() => list.replaceChildren(el('li', 'error', 'Couldn’t load projects.')));
+  // The prerendered list in index.html stays up if projects.json fails.
+  .catch(() => {});

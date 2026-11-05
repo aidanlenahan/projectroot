@@ -1,0 +1,34 @@
+# Keeps the prerendered project list, JSON-LD, and sitemap in index.html
+# in sync with projects.json (see scripts/build.mjs).
+name: Prerender
+
+on:
+  push:
+    branches: [main]
+    paths: [projects.json, index.html, scripts/build.mjs]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/build.mjs
+      - name: Commit if changed
+        run: |
+          # sitemap lastmod alone changing isn't worth a commit.
+          if git diff --quiet -- index.html; then
+            git checkout -- sitemap.xml
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add index.html sitemap.xml
+          git commit -m "prerender projects.json"
+          git push
