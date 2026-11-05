@@ -484,7 +484,7 @@
         "Linux"
       ],
       "open": "modal",
-      "link": "https://aidanlenahan.github.io/rbrctf/ctf",
+      "link": "https://rbrctf.alenahan.net/ctf",
       "modal": {
         "description": "Created and administered a CTFd instance at Red Bank Regional High School, developing dozens of capture-the-flag cybersecurity challenges for peer participation. Challenges cover web security, cryptography, binary exploitation, and network forensics.",
         "images": [
