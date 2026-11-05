@@ -27,11 +27,14 @@ const firstImage = p => {
   return img ? abs(typeof img === 'string' ? img : img.src) : undefined;
 };
 
+const PERSON_ID = 'https://aidanlenahan.com/#person';
+
 const person = {
   '@type': 'Person',
-  '@id': `${SITE}#person`,
+  '@id': PERSON_ID,
   name: 'Aidan Lenahan',
-  url: SITE,
+  alternateName: 'aidanlenahan',
+  url: 'https://aidanlenahan.com/',
   email: 'mailto:aidan@aidanlenahan.com',
   sameAs: [
     'https://github.com/aidanlenahan',
@@ -49,7 +52,7 @@ const jsonLd = {
       '@id': `${SITE}#website`,
       url: SITE,
       name: 'Aidan Lenahan · Projects',
-      author: { '@id': `${SITE}#person` },
+      author: { '@id': PERSON_ID },
     },
     {
       '@type': 'ProfilePage',
@@ -57,7 +60,7 @@ const jsonLd = {
       url: SITE,
       name: 'Aidan Lenahan · Projects',
       isPartOf: { '@id': `${SITE}#website` },
-      mainEntity: { '@id': `${SITE}#person` },
+      mainEntity: { '@id': PERSON_ID },
       hasPart: {
         '@type': 'ItemList',
         name: 'Projects',
@@ -71,7 +74,7 @@ const jsonLd = {
             url: p.link,
             image: firstImage(p),
             keywords: (p.tags || []).join(', ') || undefined,
-            creator: { '@id': `${SITE}#person` },
+            creator: { '@id': PERSON_ID },
           },
         })),
       },
